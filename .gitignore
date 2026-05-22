@@ -1,4 +1,4 @@
 .ipynb_checkpoints/
 java-notebook-env/
 .DS_Store
-*.zip
+.jbang/

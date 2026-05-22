@@ -5,9 +5,9 @@
 Click the badge above to launch this notebook in Binder. No installation required!
 
 ## Features
-- Java 11+ support via JJava kernel
-- Maven dependency management with `%maven` magic
-- Rich output display (tables, charts, HTML)
+- Java 25 support via JJava kernel (JShell-based)
+- Zero-install for students
+- Reproducible environment via `environment.yml`
 
 ## Local Development
-See the repo for `environment.yml` and `postBuild` configuration.
+See repo for Binder configuration. Uses JBang + jupyter-java kernels.
