@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+# Download and install JJava kernel
+JJAVA_VERSION="1.0-a7"
+curl -LO "https://github.com/dflib/jjava/releases/download/${JJAVA_VERSION}/jjava-${JJAVA_VERSION}-kernelspec.zip"
+unzip -q "jjava-${JJAVA_VERSION}-kernelspec.zip"
+jupyter kernelspec install "jjava-${JJAVA_VERSION}-kernelspec" --sys-prefix --name=java
+
+# Clean up
+rm -f "jjava-${JJAVA_VERSION}-kernelspec.zip"
+rm -rf "jjava-${JJAVA_VERSION}-kernelspec"
