@@ -1,3 +1,8 @@
 #!/bin/bash
-# This installs the IJava kernel
-python -m ijava install --user
+# Check if ijava kernel is already installed
+if ! jupyter kernelspec list | grep -q "java"; then
+    echo "Installing IJava kernel..."
+    python -m ijava install --user
+else
+    echo "Java kernel already exists"
+fi
