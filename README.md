@@ -1,6 +1,6 @@
 # Java Jupyter Notebook for CSC Class
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/YOUR_REPO_NAME/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MWSU-CS254/Jupyter-Notebook-Demo.git/HEAD)
 
 ## Usage
 1. Click the Binder badge above
