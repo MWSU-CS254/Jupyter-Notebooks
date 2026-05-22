@@ -1,13 +1,13 @@
-# Java Jupyter Notebook for Students
+# Java Jupyter Notebook for CSC Class
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MWSU-CS254/Jupyter-Notebook-Demo.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/YOUR_REPO_NAME/HEAD)
 
-Click the badge above to launch this notebook in Binder. No installation required!
+## Usage
+1. Click the Binder badge above
+2. Wait for the environment to build (2-3 minutes)
+3. Create a new notebook → Kernel → Java
+4. Start coding!
 
-## Features
-- Java 25 support via JJava kernel (JShell-based)
-- Zero-install for students
-- Reproducible environment via `environment.yml`
-
-## Local Development
-See repo for Binder configuration. Uses JBang + jupyter-java kernels.
+## Sample Code
+```java
+System.out.println("Hello from Binder!");

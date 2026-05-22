@@ -1,8 +1,11 @@
-name: java-notebook
+name: java-jupyter
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.11
-  - jupyterlab
-  - curl
-  - bash
+  - openjdk=17
+  - jupyterlab=4
+  - notebook=7
+  - ipykernel
+  - ijava

@@ -1,20 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
-# Java version for kernels (matches your JDK 25)
-JAVA_VERSION=25
-
-# Install JBang
-export JBANG_DEFAULT_JAVA_VERSION=$JAVA_VERSION
-curl -Ls https://sh.jbang.dev | bash -s - app setup
-export PATH=$HOME/.jbang/bin:$PATH
-
-# Trust jupyter-java org for kernel downloads
-jbang trust add https://github.com/jupyter-java/
-
-# Install JJava kernel (lightweight, JShell-based)
-jbang install-kernel@jupyter-java --enable-preview --java $JAVA_VERSION jjava
-
-# Optional: install other kernels too (uncomment if needed)
-# jbang install-kernel@jupyter-java --enable-preview --java $JAVA_VERSION rapaio
-# jbang install-kernel@jupyter-java --enable-preview --java $JAVA_VERSION ijava
+#!/bin/bash
+# This installs the IJava kernel
+python -m ijava install --user
