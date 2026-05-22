@@ -1,6 +1,6 @@
 # Java Jupyter Notebook for Students
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/YOUR_REPO/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MWSU-CS254/Jupyter-Notebook-Demo.git/HEAD)
 
 Click the badge above to launch this notebook in Binder. No installation required!
 
